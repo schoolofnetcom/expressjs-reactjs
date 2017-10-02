@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node app.js --use_strict",
+    "build": "babel src --out-dir dist --use_strict"
+  },
+  "author": "= <=> (=)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.5",
+    "helmet": "^3.8.2",
+    "mongoose": "^4.11.13",
+    "mongoose-restful-crud": "^0.5.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
